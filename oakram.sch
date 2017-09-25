@@ -88,19 +88,19 @@ Text Label 4950 2050 0    60   ~ 0
 A0
 Text Label 4950 2150 0    60   ~ 0
 A2
-Text Label 4950 2350 0    60   ~ 0
+Text Label 5100 2350 0    60   ~ 0
 A4
-Text Label 4950 2450 0    60   ~ 0
+Text Label 5100 2450 0    60   ~ 0
 A6
-Text Label 4950 2550 0    60   ~ 0
+Text Label 5100 2550 0    60   ~ 0
 A8
 Text Label 3600 2150 2    60   ~ 0
 A1
 Text Label 3600 2250 2    60   ~ 0
 A3
-Text Label 3600 2450 2    60   ~ 0
+Text Label 3450 2450 2    60   ~ 0
 A5
-Text Label 3600 2550 2    60   ~ 0
+Text Label 3450 2550 2    60   ~ 0
 A7
 Wire Wire Line
 	4750 2050 4950 2050
@@ -267,9 +267,9 @@ VCC
 NoConn ~ 3950 4175
 NoConn ~ 4750 5075
 NoConn ~ 3950 4375
-Text Label 4950 4375 0    60   ~ 0
+Text Label 5100 4400 0    60   ~ 0
 A0
-Text Label 4950 4475 0    60   ~ 0
+Text Label 5050 4500 0    60   ~ 0
 A2
 Text Label 4950 4675 0    60   ~ 0
 A4
@@ -277,9 +277,9 @@ Text Label 4950 4775 0    60   ~ 0
 A6
 Text Label 4950 4875 0    60   ~ 0
 A8
-Text Label 3600 4475 2    60   ~ 0
+Text Label 3350 4500 2    60   ~ 0
 A1
-Text Label 3600 4575 2    60   ~ 0
+Text Label 3350 4600 2    60   ~ 0
 A3
 Text Label 3600 4775 2    60   ~ 0
 A5
@@ -324,7 +324,7 @@ Wire Wire Line
 	4750 3875 5350 3875
 Wire Wire Line
 	4750 4175 4950 4175
-Text Label 4950 4175 0    60   ~ 0
+Text Label 5050 4150 0    60   ~ 0
 A9
 Text Label 3600 3175 2    60   ~ 0
 D24
@@ -392,11 +392,11 @@ Wire Wire Line
 	3950 4075 3600 4075
 Wire Wire Line
 	3950 4275 3600 4275
-Text Label 3600 4275 2    60   ~ 0
+Text Label 3450 4300 2    60   ~ 0
 ~WE
 Wire Wire Line
 	4750 4275 5100 4275
-Text Label 5100 4275 0    60   ~ 0
+Text Label 5200 4300 0    60   ~ 0
 ~RAS
 Wire Wire Line
 	3950 4975 3600 4975
