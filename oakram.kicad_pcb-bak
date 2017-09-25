@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 0)
     (zones 0)
     (modules 4)
@@ -348,7 +348,7 @@
   )
 
   (module oakram:ZIP40-P-475-1.27 (layer F.Cu) (tedit 59C8FFC3) (tstamp 59C9396E)
-    (at 166.5 49.53)
+    (at 123.32 100.33)
     (path /59C97991)
     (fp_text reference X1 (at 0 -26.67) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -443,7 +443,7 @@
   )
 
   (module oakram:ZIP40-P-475-1.27 (layer F.Cu) (tedit 59C8FFC3) (tstamp 59C9399E)
-    (at 204.6 49.53)
+    (at 161.42 100.33)
     (path /59C9833A)
     (fp_text reference X2 (at 0 -26.67) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -538,7 +538,7 @@
   )
 
   (module SMD_Packages:SOJ-42 (layer F.Cu) (tedit 0) (tstamp 59C93FD5)
-    (at 176.53 50.8 270)
+    (at 133.35 101.6 270)
     (descr "Module CMS SOJ 42 pins")
     (tags "CMS SOJ")
     (path /59C98929)
@@ -643,7 +643,7 @@
   )
 
   (module SMD_Packages:SOJ-42 (layer F.Cu) (tedit 0) (tstamp 59C94008)
-    (at 194.31 50.8 270)
+    (at 151.13 101.6 270)
     (descr "Module CMS SOJ 42 pins")
     (tags "CMS SOJ")
     (path /59C98680)
@@ -746,5 +746,10 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 119.38 129.54) (end 119.38 73.66) (layer F.CrtYd) (width 0.2))
+  (gr_line (start 165.1 129.54) (end 119.38 129.54) (layer F.CrtYd) (width 0.2))
+  (gr_line (start 165.1 73.66) (end 165.1 129.54) (layer F.CrtYd) (width 0.2))
+  (gr_line (start 119.38 73.66) (end 165.1 73.66) (layer F.CrtYd) (width 0.2))
 
 )

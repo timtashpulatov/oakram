@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:oakram
+LIBS:oakram-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -3284,4 +3285,108 @@ F 3 "" H 8450 4375 50  0001 C CNN
 	1    8450 4375
 	1    0    0    -1  
 $EndComp
+Text Label 7750 875  2    60   ~ 0
+A0
+Text Label 7750 975  2    60   ~ 0
+A1
+Text Label 7750 1075 2    60   ~ 0
+A2
+Text Label 7750 1175 2    60   ~ 0
+A3
+Text Label 7750 1275 2    60   ~ 0
+A4
+Text Label 7750 1375 2    60   ~ 0
+A5
+Text Label 7750 1475 2    60   ~ 0
+A6
+Text Label 7750 1575 2    60   ~ 0
+A7
+Text Label 7750 1675 2    60   ~ 0
+A8
+Text Label 7750 1775 2    60   ~ 0
+A9
+Text Label 7650 3525 2    60   ~ 0
+A0
+Text Label 7650 3625 2    60   ~ 0
+A1
+Text Label 7650 3725 2    60   ~ 0
+A2
+Text Label 7650 3825 2    60   ~ 0
+A3
+Text Label 7650 3925 2    60   ~ 0
+A4
+Text Label 7650 4025 2    60   ~ 0
+A5
+Text Label 7650 4125 2    60   ~ 0
+A6
+Text Label 7650 4225 2    60   ~ 0
+A7
+Text Label 7650 4325 2    60   ~ 0
+A8
+Text Label 7650 4425 2    60   ~ 0
+A9
+Text Label 9250 3525 0    60   ~ 0
+D16
+Text Label 9250 3625 0    60   ~ 0
+D17
+Text Label 9250 3725 0    60   ~ 0
+D18
+Text Label 9250 3825 0    60   ~ 0
+D19
+Text Label 9250 3925 0    60   ~ 0
+D20
+Text Label 9250 4025 0    60   ~ 0
+D21
+Text Label 9250 4125 0    60   ~ 0
+D22
+Text Label 9250 4225 0    60   ~ 0
+D23
+Text Label 9250 4325 0    60   ~ 0
+D24
+Text Label 9250 4425 0    60   ~ 0
+D25
+Text Label 9250 4525 0    60   ~ 0
+D26
+Text Label 9250 4625 0    60   ~ 0
+D27
+Text Label 9250 4725 0    60   ~ 0
+D28
+Text Label 9250 4825 0    60   ~ 0
+D29
+Text Label 9250 4925 0    60   ~ 0
+D30
+Text Label 9250 5025 0    60   ~ 0
+D31
+Text Label 9350 875  0    60   ~ 0
+D0
+Text Label 9350 975  0    60   ~ 0
+D1
+Text Label 9350 1075 0    60   ~ 0
+D2
+Text Label 9350 1175 0    60   ~ 0
+D3
+Text Label 9350 1275 0    60   ~ 0
+D4
+Text Label 9350 1375 0    60   ~ 0
+D5
+Text Label 9350 1475 0    60   ~ 0
+D6
+Text Label 9350 1575 0    60   ~ 0
+D7
+Text Label 9350 1675 0    60   ~ 0
+D8
+Text Label 9350 1775 0    60   ~ 0
+D9
+Text Label 9350 1875 0    60   ~ 0
+D10
+Text Label 9350 1975 0    60   ~ 0
+D11
+Text Label 9350 2075 0    60   ~ 0
+D12
+Text Label 9350 2175 0    60   ~ 0
+D13
+Text Label 9350 2275 0    60   ~ 0
+D14
+Text Label 9350 2375 0    60   ~ 0
+D15
 $EndSCHEMATC
