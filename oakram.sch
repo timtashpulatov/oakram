@@ -55,28 +55,6 @@ F 3 "" H 4150 1700 60  0001 C CNN
 	1    4350 1800
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR01
-U 1 1 59C97BC1
-P 3950 1050
-F 0 "#PWR01" H 3950 800 50  0001 C CNN
-F 1 "GND" V 3955 922 50  0000 R CNN
-F 2 "" H 3950 1050 50  0001 C CNN
-F 3 "" H 3950 1050 50  0001 C CNN
-	1    3950 1050
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR02
-U 1 1 59C97BD9
-P 4750 1250
-F 0 "#PWR02" H 4750 1000 50  0001 C CNN
-F 1 "GND" V 4755 1122 50  0000 R CNN
-F 2 "" H 4750 1250 50  0001 C CNN
-F 3 "" H 4750 1250 50  0001 C CNN
-	1    4750 1250
-	0    -1   -1   0   
-$EndComp
 Text GLabel 3500 1350 0    60   Output ~ 0
 VCC
 Text GLabel 5350 1550 2    60   Output ~ 0
@@ -122,17 +100,6 @@ Wire Wire Line
 	3950 2550 3600 2550
 Text GLabel 5400 2250 2    60   Output ~ 0
 VCC
-$Comp
-L GND #PWR03
-U 1 1 59C97DF8
-P 3950 2350
-F 0 "#PWR03" H 3950 2100 50  0001 C CNN
-F 1 "GND" V 3955 2222 50  0000 R CNN
-F 2 "" H 3950 2350 50  0001 C CNN
-F 3 "" H 3950 2350 50  0001 C CNN
-	1    3950 2350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4750 2250 5400 2250
 Wire Wire Line
@@ -238,28 +205,6 @@ F 3 "" H 4150 4025 60  0001 C CNN
 	1    4350 4125
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR04
-U 1 1 59C98340
-P 3950 3375
-F 0 "#PWR04" H 3950 3125 50  0001 C CNN
-F 1 "GND" V 3955 3247 50  0000 R CNN
-F 2 "" H 3950 3375 50  0001 C CNN
-F 3 "" H 3950 3375 50  0001 C CNN
-	1    3950 3375
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR05
-U 1 1 59C98346
-P 4750 3575
-F 0 "#PWR05" H 4750 3325 50  0001 C CNN
-F 1 "GND" V 4755 3447 50  0000 R CNN
-F 2 "" H 4750 3575 50  0001 C CNN
-F 3 "" H 4750 3575 50  0001 C CNN
-	1    4750 3575
-	0    -1   -1   0   
-$EndComp
 Text GLabel 3500 3675 0    60   Output ~ 0
 VCC
 Text GLabel 5350 3875 2    60   Output ~ 0
@@ -305,17 +250,6 @@ Wire Wire Line
 	3950 4875 3600 4875
 Text GLabel 5400 4575 2    60   Output ~ 0
 VCC
-$Comp
-L GND #PWR06
-U 1 1 59C98364
-P 3950 4675
-F 0 "#PWR06" H 3950 4425 50  0001 C CNN
-F 1 "GND" V 3955 4547 50  0000 R CNN
-F 2 "" H 3950 4675 50  0001 C CNN
-F 3 "" H 3950 4675 50  0001 C CNN
-	1    3950 4675
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4750 4575 5400 4575
 Wire Wire Line
@@ -3405,12 +3339,132 @@ Text Label 7750 2375 2    60   ~ 0
 ~CAS0
 Text Label 7750 2275 2    60   ~ 0
 ~CAS1
-Text Label 7650 5025 2    60   ~ 0
-~CAS2
 Text Label 7650 4925 2    60   ~ 0
+~CAS2
+Text Label 7650 5025 2    60   ~ 0
 ~CAS3
 NoConn ~ 7750 1875
 NoConn ~ 7750 1975
 NoConn ~ 7650 4525
 NoConn ~ 7650 4625
+Text GLabel 3950 1050 0    60   UnSpc ~ 0
+VSS
+Text GLabel 4750 1250 2    60   UnSpc ~ 0
+VSS
+Text GLabel 3950 2350 0    60   UnSpc ~ 0
+VSS
+Text GLabel 3950 4675 0    60   UnSpc ~ 0
+VSS
+Text GLabel 3950 3375 0    60   UnSpc ~ 0
+VSS
+Text GLabel 4750 3575 2    60   UnSpc ~ 0
+VSS
+Text GLabel 2525 5975 0    60   Output ~ 0
+VCC
+Wire Wire Line
+	2525 5975 5275 5975
+$Comp
+L C C1
+U 1 1 59CBE190
+P 2850 6250
+F 0 "C1" H 2965 6333 50  0000 L CNN
+F 1 "2,2u" H 2965 6242 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2965 6159 39  0000 L CNN
+F 3 "" H 2850 6250 50  0001 C CNN
+	1    2850 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 2525 6575 0    60   UnSpc ~ 0
+VSS
+Wire Wire Line
+	2850 6100 2850 5975
+Connection ~ 2850 5975
+Wire Wire Line
+	2525 6575 5275 6575
+Wire Wire Line
+	2850 6400 2850 6575
+Connection ~ 2850 6575
+$Comp
+L C C2
+U 1 1 59CBE35E
+P 3350 6250
+F 0 "C2" H 3465 6333 50  0000 L CNN
+F 1 "2,2u" H 3465 6242 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3465 6159 39  0000 L CNN
+F 3 "" H 3350 6250 50  0001 C CNN
+	1    3350 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 59CBE39E
+P 3800 6250
+F 0 "C3" H 3915 6333 50  0000 L CNN
+F 1 "2,2u" H 3915 6242 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3915 6159 39  0000 L CNN
+F 3 "" H 3800 6250 50  0001 C CNN
+	1    3800 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 59CBE4F8
+P 4325 6250
+F 0 "C4" H 4440 6333 50  0000 L CNN
+F 1 "2,2u" H 4440 6242 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4440 6159 39  0000 L CNN
+F 3 "" H 4325 6250 50  0001 C CNN
+	1    4325 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 6100 4325 5975
+Wire Wire Line
+	4325 6400 4325 6575
+$Comp
+L C C5
+U 1 1 59CBE500
+P 4825 6250
+F 0 "C5" H 4940 6333 50  0000 L CNN
+F 1 "2,2u" H 4940 6242 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4940 6159 39  0000 L CNN
+F 3 "" H 4825 6250 50  0001 C CNN
+	1    4825 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 59CBE506
+P 5275 6250
+F 0 "C6" H 5390 6333 50  0000 L CNN
+F 1 "2,2u" H 5390 6242 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5390 6159 39  0000 L CNN
+F 3 "" H 5275 6250 50  0001 C CNN
+	1    5275 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5275 5975 5275 6100
+Wire Wire Line
+	3350 6100 3350 5975
+Connection ~ 3350 5975
+Wire Wire Line
+	5275 6575 5275 6400
+Wire Wire Line
+	3350 6400 3350 6575
+Connection ~ 3350 6575
+Wire Wire Line
+	3800 6100 3800 5975
+Connection ~ 3800 5975
+Wire Wire Line
+	4825 6100 4825 5975
+Connection ~ 4825 5975
+Wire Wire Line
+	4825 6400 4825 6575
+Connection ~ 4825 6575
+Wire Wire Line
+	3800 6400 3800 6575
+Connection ~ 3800 6575
+Connection ~ 4325 6575
+Connection ~ 4325 5975
 $EndSCHEMATC
