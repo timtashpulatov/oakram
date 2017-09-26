@@ -3362,7 +3362,7 @@ VSS
 Text GLabel 2525 5975 0    60   Output ~ 0
 VCC
 Wire Wire Line
-	2525 5975 5275 5975
+	2525 5975 6325 5975
 $Comp
 L C C1
 U 1 1 59CBE190
@@ -3380,7 +3380,7 @@ Wire Wire Line
 	2850 6100 2850 5975
 Connection ~ 2850 5975
 Wire Wire Line
-	2525 6575 5275 6575
+	2525 6575 6325 6575
 Wire Wire Line
 	2850 6400 2850 6575
 Connection ~ 2850 6575
@@ -3467,4 +3467,21 @@ Wire Wire Line
 Connection ~ 3800 6575
 Connection ~ 4325 6575
 Connection ~ 4325 5975
+$Comp
+L CP1 C7
+U 1 1 59CA5A3F
+P 6325 6300
+F 0 "C7" H 6440 6383 50  0000 L CNN
+F 1 "47u 16V" H 6440 6292 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Reflow" H 6440 6209 39  0000 L CNN
+F 3 "" H 6325 6300 50  0001 C CNN
+	1    6325 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 6575 6325 6450
+Connection ~ 5275 6575
+Wire Wire Line
+	6325 5975 6325 6150
+Connection ~ 5275 5975
 $EndSCHEMATC
